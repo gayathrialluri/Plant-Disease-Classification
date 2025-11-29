@@ -5,21 +5,30 @@ This project presents a deep-learning–based cotton leaf and plant disease clas
 
 
 ## 📂 Project Structure
+📁 Cotton Disease Classification
+│
 ├── Dataset/
-│   ├── Fresh Cotton Leaf
-│   ├── Fresh Cotton Plant
-│   ├── Diseased Cotton Leaf
-│   ├── Diseased Cotton Plant
+│   ├── Fresh Cotton Leaf/
+│   ├── Fresh Cotton Plant/
+│   ├── Diseased Cotton Leaf/
+│   ├── Diseased Cotton Plant/
+│
 ├── Models/
-│   ├── VGG19
-│   ├── ResNet18
-│   ├── InceptionV3
-│   └── Meta-Model (Stacking)
+│   ├── VGG19/
+│   ├── ResNet18/
+│   ├── InceptionV3/
+│   └── Meta-Model-Ensemble/
+│
 ├── Code/
-│   ├── Training Scripts
-│   ├── Model Evaluation
-│   ├── Ensemble Learning
+│   ├── data_preprocessing.py
+│   ├── train_vgg19.py
+│   ├── train_resnet18.py
+│   ├── train_inceptionv3.py
+│   ├── meta_model.py
+│   └── evaluate.py
+│
 └── README.md
+
 
 ## 🌱 Project Overview
 
