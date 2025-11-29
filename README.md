@@ -4,7 +4,7 @@ This project presents a deep-learning–based cotton leaf and plant disease clas
 
 
 
-**📂 Project Structure**
+## 📂 Project Structure
 ├── Dataset/
 │   ├── Fresh Cotton Leaf
 │   ├── Fresh Cotton Plant
@@ -21,7 +21,7 @@ This project presents a deep-learning–based cotton leaf and plant disease clas
 │   ├── Ensemble Learning
 └── README.md
 
-**🌱 Project Overview**
+## 🌱 Project Overview
 
 This work aims to automatically classify cotton leaf and plant diseases using image data and advanced deep learning techniques.
 
@@ -34,7 +34,7 @@ This work aims to automatically classify cotton leaf and plant diseases using im
 • Shows that the meta-model ensemble outperforms individual models.
 
 
-**🖼️ Dataset Details**
+## 🖼️ Dataset Details
 
 The dataset includes four classes:
 
@@ -57,7 +57,7 @@ Data augmentation techniques applied include:
 • Normalization
 
 
-**⚙️ Pipeline / Workflow**
+## ⚙️ Pipeline / Workflow
 
 
 1️⃣ Image Acquisition
@@ -91,7 +91,7 @@ Data augmentation techniques applied include:
 • Fed into a dense neural network meta-learner
 • Produces final prediction
 
-**🧠 Models Used**
+## 🧠 Models Used
 ✔ VGG19 (Best Individual Model)
 
 • Pre-trained on ImageNet
@@ -131,7 +131,7 @@ Data augmentation techniques applied include:
 • Achieved 97.13% accuracy
 
 
-**📊 Evaluation Metrics**
+## 📊 Evaluation Metrics
 
 
 • Accuracy
@@ -142,7 +142,7 @@ Data augmentation techniques applied include:
 
 Each model was evaluated using a held-out test set of 106 images.
 
-**🏆 Model Performance Summary**
+## 🏆 Model Performance Summary
 
 Model	Accuracy	Precision	Recall	F1-Score
 VGG19	93%	96%	93%	96%
@@ -150,7 +150,7 @@ ResNet18	60%	60%	60%	60%
 InceptionV3	100%	98%	100%	98%
 Meta-Model (Ensemble)	97.13%	97.27%	97.17%	89.92%
 
-**🚀 Key Findings**
+## 🚀 Key Findings
 
 • Stacked ensemble improved performance beyond individual models.
 • InceptionV3 overfitted despite high accuracy.
