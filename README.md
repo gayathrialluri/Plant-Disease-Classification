@@ -143,12 +143,13 @@ Data augmentation techniques applied include:
 Each model was evaluated using a held-out test set of 106 images.
 
 ## 🏆 Model Performance Summary
+| Model                | Accuracy | Precision | Recall | F1-Score |
+|---------------------|----------|-----------|--------|----------|
+| VGG19               | 93%      | 96%       | 93%    | 96%      |
+| ResNet18            | 60%      | 60%       | 60%    | 60%      |
+| InceptionV3         | 100%     | 98%       | 100%   | 98%      |
+| Meta-Model Ensemble | 97.13%   | 97.27%    | 97.17% | 89.92%   |
 
-Model	Accuracy	Precision	Recall	F1-Score
-VGG19	93%	96%	93%	96%
-ResNet18	60%	60%	60%	60%
-InceptionV3	100%	98%	100%	98%
-Meta-Model (Ensemble)	97.13%	97.27%	97.17%	89.92%
 
 ## 🚀 Key Findings
 
