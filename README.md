@@ -92,7 +92,7 @@ Data augmentation techniques applied include:
 • Produces final prediction
 
 ## 🧠 Models Used
-✔ VGG19 (Best Individual Model)
+**✔ VGG19 (Best Individual Model)**
 
 • Pre-trained on ImageNet
 
@@ -104,7 +104,7 @@ Data augmentation techniques applied include:
 
 
 
-✔ ResNet18
+**✔ ResNet18**
 
 • Residual connections prevent vanishing gradients
 
@@ -113,7 +113,7 @@ Data augmentation techniques applied include:
 • Lower performance due to class imbalance sensitivity 
 
 
-✔ InceptionV3
+**✔ InceptionV3**
 
 • Strong multi-scale feature extraction
 
@@ -122,7 +122,7 @@ Data augmentation techniques applied include:
 • Excluded from the ensemble 
 
 
-✔ Meta-Model (Stacking Ensemble)
+**✔ Meta-Model (Stacking Ensemble)**
 
 • Combines softmax outputs of VGG19 + ResNet18
 
