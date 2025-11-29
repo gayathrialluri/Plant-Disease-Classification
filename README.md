@@ -35,13 +35,7 @@ Evaluates models using Accuracy, Precision, Recall, and F1-Score.
 Shows that the meta-model ensemble outperforms individual models.
 
 
-Plant_Disease_Classification (6)
-
-🖼️ Dataset Details
-
-Based on the dataset description in the report (Page 3): 
-
-Plant_Disease_Classification (6)
+**🖼️ Dataset Details**
 
 
 The dataset includes four classes:
@@ -65,13 +59,8 @@ Data augmentation techniques applied include:
 • Normalization
 
 
-Plant_Disease_Classification (6)
+**⚙️ Pipeline / Workflow**
 
-⚙️ Pipeline / Workflow
-
-According to the framework diagram on Page 5: 
-
-Plant_Disease_Classification (6)
 
 1️⃣ Image Acquisition
 
@@ -104,7 +93,7 @@ Plant_Disease_Classification (6)
 • Fed into a dense neural network meta-learner
 • Produces final prediction
 
-🧠 Models Used
+**🧠 Models Used**
 ✔ VGG19 (Best Individual Model)
 
 Pre-trained on ImageNet
@@ -115,7 +104,7 @@ Achieved 93% test accuracy
 
 Excellent precision, recall, and F1-score (Page 6–7) 
 
-Plant_Disease_Classification (6)
+
 
 ✔ ResNet18
 
@@ -145,13 +134,9 @@ Trained on Level-1 dataset of 8-dimensional probability vectors
 
 Achieved 97.13% accuracy, best overall (Page 17) 
 
-Plant_Disease_Classification (6)
 
-📊 Evaluation Metrics
+**📊 Evaluation Metrics**
 
-As described in the Evaluation section (Page 18): 
-
-Plant_Disease_Classification (6)
 
 • Accuracy
 • Precision
@@ -161,18 +146,15 @@ Plant_Disease_Classification (6)
 
 Each model was evaluated using a held-out test set of 106 images.
 
-🏆 Model Performance Summary
-
-From Table 8 (Page 20): 
-
-Plant_Disease_Classification (6)
+**🏆 Model Performance Summary**
 
 Model	Accuracy	Precision	Recall	F1-Score
 VGG19	93%	96%	93%	96%
 ResNet18	60%	60%	60%	60%
 InceptionV3	100%	98%	100%	98%
 Meta-Model (Ensemble)	97.13%	97.27%	97.17%	89.92%
-🚀 Key Findings
+
+**🚀 Key Findings**
 
 • Stacked ensemble improved performance beyond individual models.
 • InceptionV3 overfitted despite high accuracy.
