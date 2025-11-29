@@ -5,6 +5,7 @@ This project presents a deep-learning–based cotton leaf and plant disease clas
 
 
 ## 📂 Project Structure
+
 📁 Cotton Disease Classification
 │
 ├── Dataset/
