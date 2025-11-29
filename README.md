@@ -24,19 +24,17 @@ This project presents a deep-learning–based cotton leaf and plant disease clas
 **🌱 Project Overview**
 
 This work aims to automatically classify cotton leaf and plant diseases using image data and advanced deep learning techniques.
-According to the report, the system:
 
-Uses VGG19, ResNet18, and InceptionV3 individually.
+• Uses VGG19, ResNet18, and InceptionV3 individually.
 
-Combines VGG19 + ResNet18 using a stacked ensemble (meta-learning) for final prediction.
+• Combines VGG19 + ResNet18 using a stacked ensemble (meta-learning) for final prediction.
 
-Evaluates models using Accuracy, Precision, Recall, and F1-Score.
+• Evaluates models using Accuracy, Precision, Recall, and F1-Score.
 
-Shows that the meta-model ensemble outperforms individual models.
+• Shows that the meta-model ensemble outperforms individual models.
 
 
 **🖼️ Dataset Details**
-
 
 The dataset includes four classes:
 
@@ -96,43 +94,41 @@ Data augmentation techniques applied include:
 **🧠 Models Used**
 ✔ VGG19 (Best Individual Model)
 
-Pre-trained on ImageNet
+• Pre-trained on ImageNet
 
-Modified with custom classifier layers
+• Modified with custom classifier layers
 
-Achieved 93% test accuracy
+• Achieved 93% test accuracy
 
-Excellent precision, recall, and F1-score (Page 6–7) 
+• Excellent precision, recall, and F1-score
 
 
 
 ✔ ResNet18
 
-Residual connections prevent vanishing gradients
+• Residual connections prevent vanishing gradients
 
-Achieved 60% test accuracy
+• Achieved 60% test accuracy
 
-Lower performance due to class imbalance sensitivity (Page 9–10) 
+• Lower performance due to class imbalance sensitivity 
 
-Plant_Disease_Classification (6)
 
 ✔ InceptionV3
 
-Strong multi-scale feature extraction
+• Strong multi-scale feature extraction
 
-Achieved 100% test accuracy, but considered overfitting
+• Achieved 100% test accuracy, but considered overfitting
 
-Excluded from the ensemble (Page 13–14) 
+• Excluded from the ensemble 
 
-Plant_Disease_Classification (6)
 
 ✔ Meta-Model (Stacking Ensemble)
 
-Combines softmax outputs of VGG19 + ResNet18
+• Combines softmax outputs of VGG19 + ResNet18
 
-Trained on Level-1 dataset of 8-dimensional probability vectors
+• Trained on Level-1 dataset of 8-dimensional probability vectors
 
-Achieved 97.13% accuracy, best overall (Page 17) 
+• Achieved 97.13% accuracy
 
 
 **📊 Evaluation Metrics**
